@@ -21,15 +21,15 @@ $custom_query = new WP_Query( $custom_query_args );
 if ( $custom_query->have_posts() ) :
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-    <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <li id="post-<?php the_ID(); ?>" class="move-right">
+      <article>
+        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('project-thumb');?></a>
+      </article>
       <article>
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         <h5><?php the_tags(' '); ?></h5>
         <?php the_excerpt(); ?>
         <a href="<?php the_permalink(); ?>" class="button">Read more</a>
-      </article>
-      <article>
-        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('project-thumb');?></a>
       </article>
     </li>
 
