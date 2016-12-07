@@ -14,8 +14,8 @@
       <div class="panel">
         <h5>Highlights</h5>
         <ul>
-          <li>Multiple Projects for CRUK, MSF UK, Barts Charity and GOSH</li>
           <li>Key UX improvements across the Pearson Qualifications Website</li>
+          <li>Multiple Projects for CRUK, 4Children and British Library</li>
           <li>Website's for the London Bikeathon at Bloodwise</li>
           <li>Event Management Functionality for Scripture Union</li>
           <li>Responsive Website for the British Lung Foundation</li>
@@ -99,11 +99,11 @@
         <p>March 2011 - Present</p>
       </li>
 
-      <li>
+      <!-- <li>
         <h4><a href="#" target="_blank">Download CV</a></h4>
-        <p>PDF Formet</p>
+        <p>PDF Format</p>
         <p><em>Updated: December 2016</em></p>
-      </li>
+      </li> -->
     </ul>
   </section>
 </div>
@@ -144,7 +144,7 @@
         <p>Charity</p>
       </li>
       <li>
-        <h4>Unicef</h4>
+        <h4>Child Bereavement UK</h4>
         <p>Project Management</p>
         <p>Charity</p>
       </li>
@@ -159,7 +159,7 @@
         <p>Charity</p>
       </li>
       <li>
-        <h4>Logic Group</h4>
+        <h4>The Logic Group</h4>
         <p>Project Management</p>
         <p>Charity</p>
       </li>
