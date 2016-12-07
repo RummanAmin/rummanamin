@@ -8,6 +8,18 @@
     <section class="layout">
       <article class="post-content">
         <?php the_content(); ?>
+        <div id="author-box">
+          <div class="author-main">
+            <article class="author-img">
+              <?php echo get_avatar( get_the_author_meta( 'ID' ), 150 ); ?>
+            </article>
+            <article class="author-info">
+              <h4><?php the_author(); ?></h4>
+              <p><?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?></p>
+              <a href="/about">Read more</a>
+            </article>
+          </div>
+        </div>
         <div class="tags">
           <p><span>Category:</span> <?php the_category(' '); ?></p>
           <p><span>Tags:</span> <?php the_tags( '', ', '); ?></p>
