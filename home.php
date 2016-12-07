@@ -3,7 +3,7 @@
   <div class="band intro">
     <section class="layout">
       <h1>Blog</h1>
-      <h2>We hope you enjoy reading our posts as much as we enjoy writing them. We cover topics such as Project Management, Design, Development and Marketing.</h2>
+      <h2>Occasionally write about Project Management, Design, Development and share the odd post or two about everyday life. Enjoy!</h2>
     </section>
   </div>
 

@@ -6,25 +6,25 @@
     <section class="layout">
       <article>
         <h4>Form</h4>
-        <p>Please go through the form and try to complete all the fields with as much information as you can. This will help me give you the best options available.</p>
+        <p>Please try to complete all the fields with as much information as possible. This will help me give you the most accurate answers and offer the best options available.</p>
       </article>
       <article class="contact-info">
         <h4>Direct</h4>
-        <p>Alternatively, you can use a more direct approach.</p>
+        <p>Alternatively, you can use a more direct approach through email or <a href="http://pph.me/rummanamin" target="_blank">PeoplePerHour.</a></p>
         <ul>
-          <li>E: <a href="mailto:info@rummanamin.co.uk?Subject=Hello">info@rummanamin.co.uk</a></li>
-          <li>P: <a href="tel:07961916342" target="_self">+44 (0)79 619 16342</a></li>
+          <li><a href="mailto:hello@rummanamin.co.uk?Subject=Hello">hello@rummanamin.co.uk</a></li>
+          <li><a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a></li>
         </ul>
       </article>
       <article>
         <h4>Social</h4>
-        <p>Follow us on Social Media to get all our updates.</p>
+        <p>Follow me on social media to get all the latest updates.</p>
         <div class="social-links">
           <ul>
-            <li><a href="https://www.instagram.com/bytebubble"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/instagram.svg" alt="Instagram"></a></li>
-            <li><a href="https://www.twitter.com/rumantweets"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/twitter.svg" alt="Twitter"></a></li>
-            <li><a href="https://www.facebook.com/ruman.amin"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/facebook.svg" alt="Facebook"></a></li>
-            <li><a href="https://uk.linkedin.com/in/rummanamin"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/linkedin.svg" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/bytebubble" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="https://www.twitter.com/rumantweets" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/twitter.svg" alt="Twitter"></a></li>
+            <li><a href="https://www.facebook.com/ruman.amin" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="https://uk.linkedin.com/in/rummanamin" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/linkedin.svg" alt="LinkedIn"></a></li>
           </ul>
         </div>
       </article>
