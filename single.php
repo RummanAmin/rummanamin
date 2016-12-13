@@ -10,14 +10,14 @@
         <?php the_content(); ?>
         <div id="inline-newsletter">
           <div class="inline-newsimage">
-            <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/backgrounds/Image10.jpg" alt="">
+            <?php the_post_thumbnail();?>
           </div>
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
             <form action="//rummanamin.us7.list-manage.com/subscribe/post?u=ba090bbe727834c5b13f46e0f&amp;id=f2c530e56d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
               	<h4>Sign up for Updates</h4>
-                <p class="newsletter-message">Subscribe to the Monthly Newsletter for latest posts, FREE Resources and updates my eBook.</p>
+                <p class="newsletter-message">Subscribe to the Monthly Newsletter for latest posts, FREE Resources and updates on my eBook.</p>
                 <div class="mc-field-group">
                 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                 </label>
