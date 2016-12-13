@@ -2,7 +2,6 @@
 
 	// Hide Wordpress Version
 	remove_action('wp_head', 'wp_generator');
-
 	add_theme_support( "title-tag" );
 	add_editor_style();
 
@@ -105,23 +104,22 @@
 	}
 	add_action( 'widgets_init', 'rummanamin_widgets_init' );
 
-		// Articles Taxonomy Fix
-		function wpa_cpt_tags( $query ) {
-		    if ( $query->is_tag() && $query->is_main_query() ) {
-		        $query->set( 'post_type', array( 'project', 'object' ) );
-		    }
-		}
-		add_action( 'pre_get_posts', 'wpa_cpt_tags' );
+	// Project Taxonomy Fix
+	function wpa_cpt_tags( $query ) {
+	    if ( $query->is_tag() && $query->is_main_query() ) {
+	        $query->set( 'post_type', array( 'post', 'project', 'object' ) );
+	    }
+	}
+	add_action( 'pre_get_posts', 'wpa_cpt_tags' );
 
-		function wpa_cpt_category( $query ) {
-		    if ( $query->is_category() && $query->is_main_query() ) {
-		        $query->set( 'post_type', array( 'project', 'object' ) );
-		    }
-		}
-		add_action( 'pre_get_posts', 'wpa_cpt_category' );
+	function wpa_cpt_category( $query ) {
+	    if ( $query->is_category() && $query->is_main_query() ) {
+	        $query->set( 'post_type', array( 'post', 'project', 'object' ) );
+	    }
+	}
+	add_action( 'pre_get_posts', 'wpa_cpt_category' );
 
 	// Remove the slug from published post permalinks.
-
 	function custom_remove_cpt_slug( $post_link, $post, $leavename ) {
 	  if ( 'project' != $post->post_type || 'publish' != $post->post_status ) {
 	      return $post_link;
