@@ -18,7 +18,7 @@
         <div class="span-split ta-l">
           <article>
             <p>Well, those are the kinds of problems this book was written to solve!</p>
-            <p>You'll learn to make slight tweaks to your routine that'll help you stay on top of your work, give you the best chance of remembering important information across the year, and ultimately let you focus on enjoying learning wierd and wonderful things.</p>
+            <p>You'll learn to make slight tweaks to your routine that'll help you stay on top of your work, give you the best chance of remembering important information across the year, and ultimately let you enjoy learning weird and wonderful things.</p>
             <p>You'll learn <em>transferable</em> skills that will not only help you through your studies but will also put you in good stead for your future career as well.</p>
             <a href="#subscribe" class="button">Subscribe for Updates</a>
           </article>
@@ -30,7 +30,7 @@
               <li>How to scope projects you’ve not done before</li>
               <li>How to deliver projects on time</li>
               <li>How tools like Trello can keep you sane</li>
-              <li>How to utilise PM Methodolgies</li>
+              <li>How to utilise PM Methodologies</li>
             </ul>
           </article>
         </div>
@@ -38,7 +38,7 @@
         <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/backgrounds/study.jpg">
 
         <h3>What's Inside</h3>
-        <p>8 Chapters full of theory, examples, tips and tutorials to help you get ahead. <strong>PLUS</strong> a ton of compaion material. You'll realise how a little organisation can go a long way towards a more composed, enjoyable and rewarding way of getting things done.</p>
+        <p>8 Chapters full of theory, examples, tips and tutorials to help you get ahead. <strong>PLUS</strong> a tonne of companion material. You'll realise how a little organisation can go a long way towards a more composed, enjoyable and rewarding way of getting things done.</p>
 
         <div class="span-split-lists ta-l">
           <ul class="green-list">
@@ -106,7 +106,7 @@
       <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/rumman.jpg" id="circle-image">
         <h2>About the Author</h2>
         <h3>My name is Rumman Amin and I'm a Digital Project Manager at Pearson Education, currently managing the Pearson Qualifications Website and Exam Wizard platform.</h3>
-        <p class="para-split">Although I've been a Project Manager for 6 years, prior to that that, I was a student for almost 15 years - So I know a thing or two about the struggles of being one!
+        <p class="para-split">Although I've been a Project Manager for 6 years, prior to that, I was a student for almost 15 years - So I know a thing or two about the struggles of being one!
         <br><br>
         Since graduating, I've had the opportunity to manage numerous projects of varying sizes in different industries. Throughout this time, I've been using the same simple tools and techniques to help me manage my tasks, irrespective of the size of a project; and I think these skills will help anyone simplify even the most daunting of challenges.
         <br><br>
@@ -123,14 +123,14 @@
       </article>
       <article class="ta-l">
         <h2>Buy the eBook</h2>
-        <p>Thanks for your interest! Unfortunately, I'm still writing the book. Leave me your name and email address and I'll will get back to you with a great introductory offer as soon as it's ready to launch!</p>
+        <p>Thanks for your interest! Unfortunately, I'm still writing the book. Leave me your name and email address and I'll get back to you with a great introductory offer as soon as it's ready to launch!</p>
 
         <ul class="green-list">
           <li>200 Page eBook</li>
-          <li>Stepby step tutorialst</li>
+          <li>Step by step tutorials</li>
           <li>Evernote, Trello & Mindmap Templates</li>
           <li>5 free PM Checklists</li>
-          <li>14 day money back guarantee</li>
+          <li>14-day money back guarantee</li>
         </ul>
         <a href="#subscribe" class="button">Subscribe for Updates</a>
       </article>
@@ -157,7 +157,7 @@
           <p>The eBook is in PDF format. PDFs are a universal document format that can be opened on almost any device. It'll also ensure the layout is consistent and displayed as designed.</p>
 
           <h5>Do I need any special software to use the techniques from the eBook?</h5>
-          <p>No, you could just as easily follow the steps with just a simple pen and paper. However, there is a chapter on apps that'll no doubt help your efforts so I'd recommend having at least a smart phone/computer at your disposal.</p>
+          <p>No, you could just as easily follow the steps with just a simple pen and paper. However, there is a chapter on apps that'll no doubt help your efforts so I'd recommend having at least a smartphone/computer at your disposal.</p>
 
           <h5>When is the most appropriate time to buy the eBook?</h5>
           <p>It doesn't matter if you buy it at the start of the academic year or just before you get stuck in right at the end. Of course, the sooner you buy it, the more prepared you'll be to deal with your work.</p>
@@ -169,7 +169,7 @@
           <p>I'm aiming to launch the book by September 2017, just in time for the start of the new academic year.</p>
 
           <h5>Is the book available on iTunes, Amazon Bookstore or on Google Play?</h5>
-          <p>Yes, the eBook is available in those stores in their respective formats (ePub, mobi or PDF)</p>
+          <p>Yes, the eBook is available in those stores in their respective formats (ePub, Mobi or PDF)</p>
         </div>
       </div>
 
