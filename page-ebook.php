@@ -72,9 +72,11 @@
           <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/backgrounds/Image10.jpg">
         </article>
         <article class="ta-l">
-          <h4>Get the eBook Sample</h4>
+          <!-- <h4>Get the eBook Sample</h4>
           <p>Register your interest below to receive updates, early previews, and a <strong>FREE</strong> Project Management checklist to help you get started.</p>
-          <div>
+          <div> -->
+          <h4>Subscribe for Updates</h4>
+          <p>Register your interest below to receive updates, early previews and a great introductory offer when we launch.</p>
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
               <form action="//rummanamin.us7.list-manage.com/subscribe/post?u=ba090bbe727834c5b13f46e0f&amp;id=f2c530e56d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
