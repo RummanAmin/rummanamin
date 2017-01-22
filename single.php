@@ -9,9 +9,7 @@
       <article class="post-content">
         <div id="post-main"><?php the_content(); ?></div>
         <div id="inline-newsletter">
-          <div class="inline-newsimage">
-            <?php the_post_thumbnail();?>
-          </div>
+          <?php get_template_part( 'content', 'background' ); ?>
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
             <form action="//rummanamin.us7.list-manage.com/subscribe/post?u=ba090bbe727834c5b13f46e0f&amp;id=f2c530e56d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
