@@ -7,7 +7,7 @@
   <div class="band main">
     <section class="layout">
       <article class="post-content">
-        <?php the_content(); ?>
+        <div id="post-main"><?php the_content(); ?></div>
         <div id="inline-newsletter">
           <div class="inline-newsimage">
             <?php the_post_thumbnail();?>
