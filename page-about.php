@@ -88,12 +88,6 @@
       </li>
 
       <li>
-        <h4>Dennis Publishing</h4>
-        <p>Graduate Project Assistant</p>
-        <p>June 2011 - June 2012</p>
-      </li>
-
-      <li>
         <h4>Freelance</h4>
         <p>Web Designer/Developer</p>
         <p>March 2011 - Present</p>
