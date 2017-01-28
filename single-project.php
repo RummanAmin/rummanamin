@@ -27,7 +27,7 @@
         ?>
           <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumb');?></a>
-            <h3 class="post-title"><?php the_title(); ?></h3>
+            <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <h5><?php the_tags(' '); ?></h5>
             <?php the_excerpt(); ?>
             <a href="<?php the_permalink(); ?>" class="button">Read more</a>
