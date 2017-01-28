@@ -7,6 +7,7 @@
   <div class="band main">
     <section class="layout">
       <article class="post-content">
+        <div class="content-ad-top"><?php get_template_part('content', 'ad'); ?></div>
         <?php the_content(); ?>
       </article>
     </section>

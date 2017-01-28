@@ -12,14 +12,14 @@
       <section class="layout">
 				<article class="main-content">
 				<ul class="list-grid">
-      	<?php while ( have_posts() ) : the_post(); ?>
-					<li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumb');?></a>
-			      <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-			      <h5><?php the_category( ', ' ); ?></h5>
-			      <?php the_excerpt(); ?>
-			      <a href="<?php the_permalink(); ?>" class="button">Read more</a>
-			    </li>
+	      	<?php while ( have_posts() ) : the_post(); ?>
+						<li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumb');?></a>
+				      <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+				      <h5><?php the_category( ', ' ); ?></h5>
+				      <?php the_excerpt(); ?>
+				      <a href="<?php the_permalink(); ?>" class="button">Read more</a>
+				    </li>
         	<?php	endwhile; ?>
 				</ul>
         <div id="inline-newsletter">
@@ -50,6 +50,19 @@
         </div>
 				</article>
 				<article class="side-content">
+					<div class="square-ad">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		         <!-- Default -->
+		          <ins class="adsbygoogle"
+		            style="display:block"
+		            data-ad-client="ca-pub-7364953934710317"
+		            data-ad-slot="5572598182"
+		            data-ad-format="auto">
+		          </ins>
+		        <script>
+		        (adsbygoogle = window.adsbygoogle || []).push({});
+		        </script>
+					</div>
 					<?php get_sidebar(); ?>
           <h4 class="widget-title">Social Media</h4>
           <div class="social-links">
@@ -106,6 +119,19 @@
           </div>
         </article>
         <article class="side-content">
+					<div class="square-ad">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		         <!-- Default -->
+		          <ins class="adsbygoogle"
+		            style="display:block"
+		            data-ad-client="ca-pub-7364953934710317"
+		            data-ad-slot="5572598182"
+		            data-ad-format="auto">
+		          </ins>
+		        <script>
+		        (adsbygoogle = window.adsbygoogle || []).push({});
+		        </script>
+					</div>
           <?php get_sidebar(); ?>
           <h4 class="widget-title">Social Media</h4>
           <div class="social-links">

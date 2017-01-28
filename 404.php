@@ -39,6 +39,19 @@
         </div>
       </article>
       <article class="side-content">
+        <div class="square-ad">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	         <!-- Default -->
+	          <ins class="adsbygoogle"
+	            style="display:block"
+	            data-ad-client="ca-pub-7364953934710317"
+	            data-ad-slot="5572598182"
+	            data-ad-format="auto">
+	          </ins>
+	        <script>
+	        (adsbygoogle = window.adsbygoogle || []).push({});
+	        </script>
+				</div>
         <?php get_sidebar(); ?>
         <h4 class="widget-title">Social Media</h4>
         <div class="social-links">
