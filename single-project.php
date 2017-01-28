@@ -9,6 +9,7 @@
       <article class="post-content">
         <div class="content-ad-top"><?php get_template_part('content', 'ad'); ?></div>
         <?php the_content(); ?>
+        <div class="content-ad-bottom"><?php get_template_part('content', 'ad'); ?></div>
       </article>
     </section>
   </div>
