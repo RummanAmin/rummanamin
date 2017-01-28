@@ -41,6 +41,9 @@
             wp_nav_menu ( $defaults );
             ?>
           </nav>
+          <div class="mobile-nav-ad">
+            <?php get_template_part('content', 'ad'); ?>
+          </div>
         </div><!-- .cd-half-block -->
       </div> <!-- .cd-navigation-wrapper -->
     </div> <!-- .cd-nav -->
