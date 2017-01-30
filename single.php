@@ -7,9 +7,7 @@
   <div class="band main">
     <section class="layout">
       <article class="post-content">
-        <div class="content-ad-top"><?php get_template_part('content', 'ad'); ?></div>
         <div id="post-main"><?php the_content(); ?></div>
-        <div class="content-ad-bottom"><?php get_template_part('content', 'ad'); ?></div>
         <div id="inline-newsletter">
           <?php get_template_part( 'content', 'background' ); ?>
           <!-- Begin MailChimp Signup Form -->
