@@ -3,7 +3,7 @@
           <a href="<?php echo esc_url( home_url() ) ?>"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="rummanamin"></a>
 
           <a href="mailto:hello@rummanamin.co.uk?Subject=Hello">hello@rummanamin.co.uk</a><br>
-          <a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a>
+          <!-- <a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a> -->
 
           <div class="social-links">
             <ul>

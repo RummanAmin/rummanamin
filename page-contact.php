@@ -10,10 +10,11 @@
       </article>
       <article class="contact-info">
         <h4>Direct</h4>
-        <p>Alternatively, you can use a more direct approach through email or <a href="http://pph.me/rummanamin" target="_blank">PeoplePerHour.</a></p>
+        <p>Alternatively, you can use a more direct approach through email.</a></p>
+        <!-- <p>Alternatively, you can use a more direct approach through email or <a href="http://pph.me/rummanamin" target="_blank">PeoplePerHour.</a></p> -->
         <ul>
           <li><a href="mailto:hello@rummanamin.co.uk?Subject=Hello">hello@rummanamin.co.uk</a></li>
-          <li><a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a></li>
+          <!-- <li><a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a></li> -->
         </ul>
       </article>
       <article>
