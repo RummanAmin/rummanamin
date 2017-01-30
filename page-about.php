@@ -93,11 +93,11 @@
         <p>March 2011 - Present</p>
       </li>
 
-      <!-- <li>
-        <h4><a href="#" target="_blank">Download CV</a></h4>
+      <li>
+        <h4><a href="http://ul.to/tfwdcxiq" target="_blank">Download CV</a></h4>
         <p>PDF Format</p>
-        <p><em>Updated: December 2016</em></p>
-      </li> -->
+        <p><em>Updated: January 2017</em></p>
+      </li>
     </ul>
   </section>
 </div>
