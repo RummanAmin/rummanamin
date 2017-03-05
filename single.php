@@ -10,24 +10,21 @@
 
         <article class="post-split">
           <div id="author-box">
-            <div class="author-main">
-              <?php echo get_avatar( get_the_author_meta( 'ID' ), 150 ); ?>
-              <div class="author-info">
-                <!-- <h4><?php the_author(); ?></h4> -->
-                <p><?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?></p>
+            <div class="author-image"><?php echo get_avatar( get_the_author_meta( 'ID' ) ); ?></div>
+            <div class="author-info">
+              <p><?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?></p>
 
-                <p><a href="https://instagram.com/rumman.amin">Follow me on Instagram →</a></p>
-              </div>
+              <p class="author-share"><a href="https://instagram.com/rumman.amin">Follow me on Instagram →</a></p>
             </div>
           </div>
           <div class="post-info">
-            By <?php the_author_link(''); ?> on <?php the_date('jS F o'); ?> <br> <?php the_category(' ')?>
+            <h5>By <?php the_author_link(''); ?> on <?php the_date('jS M o'); ?> from <?php the_category(' ')?></h5>
           </div>
         </article>
 
         <article class="post-split">
           <div id="post-main"><?php the_content(); ?></div>
-          <div class="insert-post-ads">            
+          <div class="insert-post-ads">
             <?php get_template_part( 'content', 'ad' ); ?>
           </div>
           <div class="share-post">
@@ -99,12 +96,6 @@
       </ul>
     </section>
   </div>
-
-  <?php
-    if ( comments_open() || get_comments_number() ) :
-      comments_template();
-    endif;
-  ?>
 
   <?php endwhile; endif; ?>
 
