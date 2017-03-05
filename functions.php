@@ -35,7 +35,7 @@
 
   // Add CSS Files
 	function wpt_theme_styles() {
-		wp_enqueue_style( 'google_font', 'https://fonts.googleapis.com/css?family=Catamaran:600,800|Roboto:400,400i,700' );
+		wp_enqueue_style( 'google_font', 'https://fonts.googleapis.com/css?family=Hind:500,700|Roboto:400,400i,700' );
 		wp_enqueue_style( 'style.css', get_template_directory_uri() . '/style.css' );
 
 	}
