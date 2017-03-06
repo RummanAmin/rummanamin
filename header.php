@@ -18,14 +18,31 @@
       <header class="layout">
         <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="Rumman Amin"><h1>Rumman Amin</h1></a>
 
-        <nav class="main-nav">
-          <?php
-            $defaults = array(
-              'container' => '',
-              'theme_location' => 'main-menu'
-            );
-            wp_nav_menu ( $defaults );
+				<a href="#" class="open-panel open-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/menu.svg"></a>
+        <nav class="main-navigation">
+          <a href="#" class="close-panel close-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/close.svg"></a>
+            <?php
+              $defaults = array(
+                'container' => '',
+                'theme_location' => 'main-menu'
+              );
+              wp_nav_menu ( $defaults );
             ?>
+
+						<div class="mobile-navigation">
+		          <nav>
+		            <?php
+		            $defaults = array(
+		              'container' => '',
+		              'theme_location' => 'mobile-menu'
+		            );
+		            wp_nav_menu ( $defaults );
+		            ?>
+		          </nav>
+		          <div class="mobile-nav-ad">
+		            <?php get_template_part('content', 'ad'); ?>
+		          </div>
+		        </div>
         </nav>
       </header>
     </div>
