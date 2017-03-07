@@ -82,9 +82,7 @@
               <form action="//rummanamin.us7.list-manage.com/subscribe/post?u=ba090bbe727834c5b13f46e0f&amp;id=f2c530e56d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
                   <div class="mc-field-group">
-                  	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                  </label>
-                  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                  	<input type="email" value="" placeholder="Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
                   </div>
                 	<div id="mce-responses" class="clear">
                 		<div class="response" id="mce-error-response" style="display:none"></div>
