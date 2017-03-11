@@ -16,6 +16,9 @@
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
+	// Scripts
+	require get_template_directory().'/inc/Mobile_Detect.php';
+
   // Add Main Menu
 	add_theme_support( 'menus' );
 
