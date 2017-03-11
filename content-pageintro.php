@@ -5,6 +5,8 @@
   </section>
 </div>
 
+<?php if (!is_page( array(20, 25) )): ?>
+
 <div class="band poster">
   <section class="layout">
     <article>
@@ -12,3 +14,5 @@
     </article>
   </section>
 </div>
+
+<?php endif; ?>
