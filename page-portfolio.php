@@ -9,5 +9,5 @@
       </ul>
     </section>
   </div>
-  
+
 <?php get_footer(); ?>
