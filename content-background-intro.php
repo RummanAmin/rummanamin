@@ -10,11 +10,18 @@
 <?php endif; ?>
 
 
-<div class="band background-intro" style="background-image: radial-gradient(circle at 44% 37%, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)), url('<?php echo $image; ?>')">
+<div class="band background-intro" style="background-image: radial-gradient(circle at 44% 37%, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.3)), url('<?php echo $image; ?>')">
   <section class="layout">
     <article>
       <h1><?php the_title(); ?></h1>
-      <h2><?php the_excerpt(); ?></h2>
+      <h2>
+        <?php if (is_front_page()) {
+          echo get_post_meta($post->ID, 'introduction', true);
+        }
+        else {
+          echo the_excerpt();
+        } ?>
+      </h2>
     </article>
   </section>
 </div>
