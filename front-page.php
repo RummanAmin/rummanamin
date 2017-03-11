@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <?php get_template_part('content', 'pageintro'); ?>
+  <?php get_template_part('content', 'background-intro'); ?>
 
   <div class="band projects">
     <section class="layout">
