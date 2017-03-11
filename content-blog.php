@@ -3,7 +3,6 @@
   $args = array(
     'paged' => $paged,
     'ignore_sticky_posts' => 1,
-    'cat' => '-6',
     'post_type' => 'post'
   );
 
