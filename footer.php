@@ -35,6 +35,8 @@
 
     </script>
 
+    <script type="text/javascript" src="//s.skimresources.com/js/105188X1562073.skimlinks.js"></script>
+
     <?php wp_footer(); ?>
   </body>
 </html>
