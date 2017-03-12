@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<?php
+  $detect = new Mobile_Detect;
+?>
+
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   <div class="band poster">
@@ -40,7 +44,14 @@
 
   <div class="band project-shot" style="background-color:<?php echo get_post_meta($post->ID, 'colour_1', true); ?>">
     <section class="layout">
-      <img src="<?php echo the_field('screenshot'); ?>" />
+      <?php if (($detect->isMobile()) ): ?>
+        <img src="<?php echo the_field('screenshot_2'); ?>" />
+
+        <?php else: ?>
+
+        <img src="<?php echo the_field('screenshot'); ?>" />
+
+      <?php endif; ?>
     </section>
   </div>
 
