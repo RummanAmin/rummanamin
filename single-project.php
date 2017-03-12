@@ -2,13 +2,45 @@
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <?php get_template_part('content', 'intro'); ?>
+  <div class="band poster">
+    <section class="layout">
+      <article>
+        <?php the_post_thumbnail();?>
+      </article>
+    </section>
+  </div>
+
+  <div class="band project-overview">
+    <section class="layout">
+      <article class="post-content">
+        <h1><?php the_title(); ?></h1>
+        <?php the_content(); ?>
+      </article>
+      <?php if( get_field('logo') ): ?>
+        <article>
+        	<img src="<?php the_field('logo'); ?>" />
+        </article>
+      <?php endif; ?>
+    </section>
+  </div>
+
 
   <div class="band main">
     <section class="layout">
-      <article class="post-content">
-        <?php the_content(); ?>
+      <article>
+        <ul class="project-colours">
+          <li style="background-color:<?php echo get_post_meta($post->ID, 'colour_1', true); ?>"></li>
+          <li style="background-color:<?php echo get_post_meta($post->ID, 'colour_2', true); ?>"></li>
+          <li style="background-color:<?php echo get_post_meta($post->ID, 'colour_3', true); ?>"></li>
+          <li style="background-color:<?php echo get_post_meta($post->ID, 'colour_4', true); ?>"></li>
+        </ul>
       </article>
+    </section>
+  </div>
+
+  <div class="band project-shot" style="background-color:<?php echo get_post_meta($post->ID, 'colour_1', true); ?>">
+    <section class="layout">
+      <img src="<?php echo the_field('screenshot'); ?>" />
     </section>
   </div>
 
