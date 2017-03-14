@@ -5,10 +5,12 @@
   </section>
 </div>
 
-<div class="band poster">
-  <section class="layout">
-    <article>
-      <?php the_post_thumbnail();?>
-    </article>
-  </section>
-</div>
+<?php if (has_post_thumbnail( $post->ID ) ): ?>
+  <div class="band poster">
+    <section class="layout">
+      <article>
+        <?php the_post_thumbnail();?>
+      </article>
+    </section>
+  </div>
+<?php endif; ?>
