@@ -3,8 +3,7 @@
   $args = array(
     'paged' => $paged,
     'ignore_sticky_posts' => 1,
-    'category_name' => 'resources',
-    'post_type' => 'post'
+    'post_type' => 'ebook'
   );
 
   query_posts($args);
@@ -17,7 +16,7 @@
       <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
       <h5><?php the_category( ', ' ); ?> | <?php the_date(); ?></h5>
       <?php the_excerpt(); ?>
-      <a href="<?php the_permalink(); ?>" class="button">Read more</a>
+      <a href="<?php the_permalink(); ?>" class="button">Download</a>
     </li>
 
   <?php endwhile; wp_reset_postdata(); else : ?>
