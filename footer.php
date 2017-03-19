@@ -5,15 +5,7 @@
           <!-- <a href="mailto:hello@rummanamin.co.uk?Subject=Hello">hello@rummanamin.co.uk</a><br> -->
           <!-- <a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a> -->
 
-          <div class="social-links">
-            <ul>
-              <li><a href="https://www.instagram.com/rumman.amin" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/instagram.svg" alt="Instagram"></a></li>
-              <!-- <li><a href="https://www.facebook.com/ruman.amin" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/facebook.svg" alt="Facebook"></a></li> -->
-              <li><a href="https://medium.com/@rumman" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/medium.svg" alt="Medium"></a></li>
-              <li><a href="https://uk.linkedin.com/in/rummanamin" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/linkedin.svg" alt="LinkedIn"></a></li>
-              <li><a href="https://www.twitter.com/rumantweets" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/twitter.svg" alt="Twitter"></a></li>
-            </ul>
-          </div>
+          <?php get_template_part( 'content', 'social' ); ?>
 
           <p id="copyright">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>">Rumman Amin.</a> All Rights Reserved.<br><a href="/terms-conditions" target="_blank">Terms & Conditions</a> | <a href="/cookies-policy" target="_blank">Cookies Policy</a> | <a href="/privacy-policy" target="_blank">Privacy Policy</a></p>
         </footer>
