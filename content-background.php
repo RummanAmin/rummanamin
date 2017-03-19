@@ -3,9 +3,9 @@
  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
  $image = $image[0]; ?>
 
- <?php else :
+ <?php else : ?>
 
- $image = get_bloginfo( 'stylesheet_directory') . '/img/backgrounds/download2.jpg'; ?>
+ <?php $image = get_bloginfo( 'stylesheet_directory') . '/img/backgrounds/download2.jpg'; ?>
 
 <?php endif; ?>
 
