@@ -14,6 +14,13 @@
 <body <?php body_class(); ?>>
   <main id="wrapper">
 
+		<div class="band top-bar">
+			<section class="layout">
+				<a href="http://eepurl.com/cst6qz" target="_blank" class="subscribe-link">Subscribe to Newsletter</a>
+				<?php get_search_form(); ?>
+			</section>
+		</div>
+
     <div class="band top">
       <header class="layout">
         <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="Rumman Amin"><h1>Rumman Amin</h1></a>

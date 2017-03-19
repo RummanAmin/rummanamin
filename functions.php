@@ -110,14 +110,14 @@
 	// Project Taxonomy Fix
 	function wpa_cpt_tags( $query ) {
 	    if ( $query->is_tag() && $query->is_main_query() ) {
-	        $query->set( 'post_type', array( 'post', 'project', 'object' ) );
+	        $query->set( 'post_type', array( 'post', 'ebook', 'project', 'object' ) );
 	    }
 	}
 	add_action( 'pre_get_posts', 'wpa_cpt_tags' );
 
 	function wpa_cpt_category( $query ) {
 	    if ( $query->is_category() && $query->is_main_query() ) {
-	        $query->set( 'post_type', array( 'post', 'project', 'object' ) );
+	        $query->set( 'post_type', array( 'post', 'ebook', 'project', 'object' ) );
 	    }
 	}
 	add_action( 'pre_get_posts', 'wpa_cpt_category' );
@@ -132,6 +132,16 @@
 	}
 
 	add_filter( 'post_type_link', 'custom_remove_cpt_slug', 10, 3 );
+
+	function custom_remove_ebook_slug( $post_link, $post, $leavename ) {
+	  if ( 'ebook' != $post->post_type || 'publish' != $post->post_status ) {
+	      return $post_link;
+	  }
+	  $post_link = str_replace( '/' . $post->post_type . '/', '/', $post_link );
+	  return $post_link;
+	}
+
+	add_filter( 'post_type_link', 'custom_remove_ebook_slug', 10, 3 );
 
 	/**
 	 * Some hackery to have WordPress match postname to any of our public post types
@@ -151,7 +161,7 @@
 
 	    // 'name' will be set if post permalinks are just post_name, otherwise the page rule will match
 	    if ( ! empty( $query->query['name'] ) ) {
-	        $query->set( 'post_type', array( 'post', 'project', 'page' ) );
+	        $query->set( 'post_type', array( 'post', 'ebook', 'project', 'page' ) );
 	    }
 	}
 	add_action( 'pre_get_posts', 'custom_parse_request_tricksy' );

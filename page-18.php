@@ -9,9 +9,9 @@
     </section>
   </div>
 
-  <div class="band ebook ebook-about">
+  <div class="band landing-page landing-about">
     <section class="layout">
-      <div class="ebook-content">
+      <div class="landing-content">
         <h2>Reap the rewards</h2>
         <h3>In your final year and worried about how you'll prioritise your time between your dissertation and modules? Or perhaps you're in school and feeling overwhelmed with revision?</h3>
 
@@ -65,9 +65,9 @@
   </div>
 
   <a id="subscribe"></a>
-  <div class="band ebook ebook-sample">
+  <div class="band landing-page landing-sample">
     <section class="layout">
-      <div class="ebook-content">
+      <div class="landing-content">
         <article>
           <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/backgrounds/Image10.jpg">
         </article>
@@ -100,9 +100,9 @@
     </section>
   </div>
 
-  <div class="band ebook ebook-author">
-    <section class="layout ebook-content">
-      <div class="ebook-content">
+  <div class="band landing-page landing-author">
+    <section class="layout landing-content">
+      <div class="landing-content">
       <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/rumman.jpg" id="circle-image">
         <h2>About the Author</h2>
         <h3>My name is Rumman Amin and I'm a Digital Project Manager at Pearson Education, currently managing the Pearson Qualifications Website and Exam Wizard platform.</h3>
@@ -116,8 +116,8 @@
     </section>
   </div>
 
-  <div class="band ebook ebook-buy">
-    <section class="layout ebook-content">
+  <div class="band landing-page landing-buy">
+    <section class="layout landing-content">
       <article>
         <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/backgrounds/ebook.png">
       </article>
@@ -138,9 +138,9 @@
   </div>
 
 
-  <div class="band ebook ebook-faq">
-    <section class="layout ebook-content">
-      <div class="ebook-content">
+  <div class="band landing-page landing-faq">
+    <section class="layout landing-content">
+      <div class="landing-content">
         <h2>Frequently Asked Questions</h2>
 
         <div class="para-split">

@@ -15,7 +15,7 @@
             </ul>
           </div>
 
-          <p class="copyright">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>">Rumman Amin.</a> All Rights Reserved.<br><a href="/terms-conditions" target="_blank">Terms & Conditions</a> | <a href="/cookies-policy" target="_blank">Cookies Policy</a> | <a href="/privacy-policy" target="_blank">Privacy Policy</a></p>
+          <p id="copyright">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>">Rumman Amin.</a> All Rights Reserved.<br><a href="/terms-conditions" target="_blank">Terms & Conditions</a> | <a href="/cookies-policy" target="_blank">Cookies Policy</a> | <a href="/privacy-policy" target="_blank">Privacy Policy</a></p>
         </footer>
       </div>
 

@@ -2,8 +2,6 @@
 
   <?php get_template_part('content', 'blogintro'); ?>
 
-  <?php get_template_part('content', 'featured'); ?>
-
   <div class="band main">
     <section class="layout">
       <ul class="list-grid">
