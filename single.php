@@ -1,3 +1,4 @@
+<?php $detect = new Mobile_Detect; ?>
 <?php get_header(); ?>
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -14,7 +15,9 @@
             <div class="author-info">
               <p><?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?></p>
 
-              <p class="author-share"><a href="https://instagram.com/rumman.amin">Follow me on Instagram →</a></p>
+              <?php if (!$detect->isMobile() || $detect->isTablet() ): ?>
+                <p class="author-share"><a href="https://instagram.com/rumman.amin">Follow me on Instagram →</a></p>
+              <?php endif; ?>
             </div>
           </div>
           <div class="post-info">

@@ -1,3 +1,5 @@
+<?php $detect = new Mobile_Detect; ?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
@@ -16,18 +18,28 @@
 
 		<div class="band top-bar">
 			<section class="layout">
-				<a href="http://eepurl.com/cst6qz" target="_blank" class="subscribe-link">Subscribe to Newsletter</a>
+				<?php if (!$detect->isMobile() || $detect->isTablet() ): ?>
+					<a href="http://eepurl.com/cst6qz" target="_blank" class="subscribe-link">Subscribe to Newsletter</a>
+				<?php endif; ?>
 				<?php get_search_form(); ?>
 			</section>
 		</div>
 
     <div class="band top">
       <header class="layout">
-        <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="Rumman Amin"><h1>Rumman Amin</h1></a>
+				<?php if ($detect->isMobile() && !$detect->isTablet() ): ?>
+	        <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="Rumman Amin"></a>
+
+				<?php else : ?>
+
+					<a href="<?php echo esc_url( home_url() ) ?>" class="logo"><h1>Rumman Amin</h1></a>
+
+				<?php endif; ?>
 
 				<a href="#" class="open-panel open-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/menu.svg"></a>
         <nav class="main-navigation">
           <a href="#" class="close-panel close-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/close.svg"></a>
+					<?php if (!$detect->isMobile() || $detect->isTablet() ): ?>
             <?php
               $defaults = array(
                 'container' => '',
@@ -35,7 +47,9 @@
               );
               wp_nav_menu ( $defaults );
             ?>
+					<?php endif; ?>
 
+					<?php if ($detect->isMobile() && !$detect->isTablet() ): ?>
 						<div class="mobile-navigation">
 		          <nav>
 		            <?php
@@ -50,6 +64,7 @@
 		            <?php get_template_part('content', 'ad'); ?>
 		          </div>
 		        </div>
+					<?php endif; ?>
         </nav>
       </header>
     </div>
