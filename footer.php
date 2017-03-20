@@ -9,7 +9,12 @@
           </article>
           <article>
             <h4>Social</h4>
-            <?php get_template_part( 'content', 'social' ); ?>
+            <ul>
+              <li><a href="https://www.instagram.com/rumman.amin" target="_blank">Instagram</a></li>
+              <li><a href="https://medium.com/@rumman" target="_blank">Medium</a></li>
+              <li><a href="https://uk.linkedin.com/in/rummanamin" target="_blank">LinkedIn</a></li>
+              <li><a href="https://www.twitter.com/rumantweets" target="_blank">Twitter</a></li>
+            </ul>
           </article>
           <article>
             <?php if (!$detect->isMobile() || $detect->isTablet() ): ?>
