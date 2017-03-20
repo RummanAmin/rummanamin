@@ -5,9 +5,6 @@
 
     <div class="band intro">
       <section class="layout">
-        <!-- <h1><?php the_title(); ?></h1>
-        <h2><?php echo get_post_meta($post->ID, 'introduction', true); ?></h2>
-        <a href="#download" class="button">Download</a> -->
         <img src="<?php the_field('cover'); ?>" class="book-cover" />
       </section>
     </div>
@@ -34,7 +31,7 @@
 
           <article class="post-split">
             <div id="post-main">
-              <h2><?php echo get_post_meta($post->ID, 'introduction', true); ?></h2>
+              <h2><?php the_excerpt(); ?></h2>
               <?php the_content(); ?>
             </div>
             <div class="insert-post-ads">
