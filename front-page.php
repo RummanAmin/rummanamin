@@ -6,8 +6,6 @@
 
   <div class="band main first">
     <section class="layout">
-      <!-- <h2>Latest Posts</h2>
-      <h4 class="section-intro">Occasionally write about Project Management, Design, Development and share the odd post or two about everyday life. Enjoy!</h4> -->
       <ul class="list-grid">
         <?php
           $args = array(
@@ -106,8 +104,6 @@
 
   <div class="band projects">
     <section class="layout">
-      <!-- <h2>Recent Projects</h2>
-      <h4 class="section-intro">My job is to try and make things simpler, smarter and more engaging. Whether that’s through design, development or project management.</h4> -->
       <ul class="list-grid">
         <?php $the_query = new WP_Query( 'showposts=1&post_type=project' ); ?>
         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>

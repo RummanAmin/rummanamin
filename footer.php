@@ -1,13 +1,21 @@
+<?php $detect = new Mobile_Detect; ?>
+
       <div class="band bottom">
         <footer class="layout">
-          <a href="<?php echo esc_url( home_url() ) ?>"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="rummanamin"></a>
-
-          <!-- <a href="mailto:hello@rummanamin.co.uk?Subject=Hello">hello@rummanamin.co.uk</a><br> -->
-          <!-- <a href="http://pph.me/rummanamin" target="_blank">pph.me/rummanamin</a> -->
-
-          <?php get_template_part( 'content', 'social' ); ?>
-
-          <p id="copyright">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>">Rumman Amin.</a> All Rights Reserved.<br><a href="/terms-conditions" target="_blank">Terms & Conditions</a> | <a href="/cookies-policy" target="_blank">Cookies Policy</a> | <a href="/privacy-policy" target="_blank">Privacy Policy</a></p>
+          <article>
+            <h4>Contact</h4>
+            <strong>Email:</strong> <a href="mailto:hello@rummanamin.co.uk?Subject=Hello">hello@rummanamin.co.uk</a><br>
+            <p id="copyright">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>">Rumman Amin.</a> All Rights Reserved.<br><a href="/terms-conditions" target="_blank">Terms & Conditions</a>. <a href="/cookies-policy" target="_blank">Cookies Policy</a>. <a href="/privacy-policy" target="_blank">Privacy Policy</a>.</p>
+          </article>
+          <article>
+            <h4>Social</h4>
+            <?php get_template_part( 'content', 'social' ); ?>
+          </article>
+          <article>
+            <?php if (!$detect->isMobile() || $detect->isTablet() ): ?>
+              <a href="<?php echo esc_url( home_url() ) ?>"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="rummanamin" class="footer-logo"></a>
+            <?php endif; ?>
+          </article>
         </footer>
       </div>
 
