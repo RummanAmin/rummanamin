@@ -33,6 +33,7 @@
             <div id="post-main">
               <h2><?php the_excerpt(); ?></h2>
               <?php the_content(); ?>
+              <p><strong>Note:</strong> Please check your Spam folder if you do not recieve the download email.</p>
             </div>
             <div class="insert-post-ads">
               <?php get_template_part( 'content', 'ad' ); ?>
