@@ -1,5 +1,8 @@
-<?php $detect = new Mobile_Detect; ?>
 <?php get_header(); ?>
+
+<?php
+  $detect = new Mobile_Detect;
+?>
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

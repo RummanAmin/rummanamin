@@ -55,6 +55,15 @@
 
 	add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );
 
+	// Remove Query Strings
+	function _remove_script_version( $src ){
+		$parts = explode( '?ver', $src );
+		return $parts[0];
+	}
+	add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
+	add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
+
+
 	// Comment Reply
 	function rummanamin_enqueue_comment_reply() {
     // on single blog post pages with comments open and threaded comments
