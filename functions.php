@@ -48,7 +48,7 @@
 	// Add JS Files
 	function wpt_theme_js() {
 
-		wp_enqueue_script( 'modernizr_min_js', get_template_directory_uri() . '/js/vendor/modernizr-2.8.3.min.js', '', '', false );
+		// wp_enqueue_script( 'modernizr_min_js', get_template_directory_uri() . '/js/vendor/modernizr-2.8.3.min.js', '', '', false );
 		wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/main.js', array('jquery'), '', true );
 
 	}
