@@ -1,5 +1,4 @@
-<?php $detect = new Mobile_Detect; ?>
-
+<?php global $detect; ?>
 <?php if (is_singular( $post_types = 'ebook' )): ?>
 
   <div id="inline-newsletter">

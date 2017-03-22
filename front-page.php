@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php $detect = new Mobile_Detect; ?>
 
   <?php get_template_part('content', 'background-intro'); ?>
 

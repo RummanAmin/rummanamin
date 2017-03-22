@@ -1,4 +1,4 @@
-<?php $detect = new Mobile_Detect; ?>
+
 
       <div class="band bottom">
         <footer class="layout">

@@ -1,4 +1,4 @@
-<?php $detect = new Mobile_Detect; ?>
+<?php global $detect; ?>
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">

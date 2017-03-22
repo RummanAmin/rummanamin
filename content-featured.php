@@ -1,11 +1,6 @@
-<?php
-
-$detect = new Mobile_Detect;
-
-?>
+<?php global $detect; ?>
 
 <?php if ((!$detect->isMobile()) ): ?>
-
 
   <?php if (is_page( 16 )): ?>
 

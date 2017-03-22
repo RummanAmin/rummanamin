@@ -18,6 +18,12 @@
 
 	// Scripts
 	require get_template_directory().'/inc/Mobile_Detect.php';
+	function mobileDetectGlobal() {
+		global $detect;
+		$detect = new Mobile_Detect;
+	}
+
+	add_action( 'after_setup_theme', 'mobileDetectGlobal');
 
   // Add Main Menu
 	add_theme_support( 'menus' );
