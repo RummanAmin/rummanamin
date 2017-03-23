@@ -1,4 +1,4 @@
-
+<?php global $detect; ?>
 
       <div class="band bottom">
         <footer class="layout">

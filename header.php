@@ -30,7 +30,7 @@
 				<?php if ($detect->isMobile() && !$detect->isTablet() ): ?>
 	        <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg" alt="Rumman Amin"></a>
 
-				<?php else : ?>
+				<?php else: ?>
 
 					<a href="<?php echo esc_url( home_url() ) ?>" class="logo"><h1>Rumman Amin</h1></a>
 
