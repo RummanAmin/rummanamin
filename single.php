@@ -31,6 +31,17 @@
           </div>
           <?php get_template_part( 'content', 'share' ); ?>
           <?php get_template_part( 'content', 'newsletter' ); ?>
+
+
+          <div class="post-comments">
+            <h5>Comments</h5>
+
+            <?php
+              if ( comments_open() || get_comments_number() ) :
+                comments_template();
+              endif;
+            ?>
+          </div>
         </article>
 
       </div>
