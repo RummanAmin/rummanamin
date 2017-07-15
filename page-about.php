@@ -9,7 +9,7 @@
       <h4>Project Management</h4>
       <p>I have 5 years client and agency side experience managing Digital, IT and Marketing projects. Projects include new builds, microsites, campaigns, infrastructure migrations and ongoing development for existing websites.</p>
       <p>I also have experience managing a support team looking over 30+ clients simultaneously, dealing with both projects and daily support issues. I’ve worked with onsite and off-shore teams, sometimes a combination of both.</p>
-      <p>I’ve managed projects of all shapes and sizes. Durations ranging from a few days to several months, with budgets of up to £250k</p>
+      <p>I’ve managed projects of all shapes and sizes. Durations ranging from a few days to several months, with budgets up to £1m</p>
       <p>I've introduced Agile Development and SCRUM into organisations and helped development teams improve their workflow.</p>
       <div class="panel">
         <h5>Highlights</h5>
@@ -39,7 +39,7 @@
           <li>Wordpress, Drupal, Kirby</li>
           <li>Custom Responsive Websites</li>
           <li>WooCommerce, Drupal Commerce, Ubercart</li>
-          <li>Github, Photoshop, Illustrator, Sketch</li>
+          <li>Github, Photoshop, Illustrator</li>
           <li>Grunt, Susy, Bootstrap, Foundation</li>
         </ul>
       </div>
@@ -52,9 +52,15 @@
     <h5>Experience</h5>
     <ul class="list-grid">
       <li>
+        <h4>CreditLadder</h4>
+        <p>Digital Project Manager</p>
+        <p>July 2017 - Present</p>
+      </li>
+
+      <li>
         <h4>Pearson Education</h4>
         <p>Digital Project Manager</p>
-        <p>March 2016 - Present</p>
+        <p>March 2016 - June 2017</p>
       </li>
 
       <li>
