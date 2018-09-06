@@ -7,36 +7,39 @@
     <h5>Skills</h5>
     <article>
       <h4>Project Management</h4>
-      <p>I have 5 years client and agency side experience managing Digital, IT and Marketing projects. Projects include new builds, microsites, campaigns, infrastructure migrations and ongoing development for existing websites.</p>
-      <p>I also have experience managing a support team looking over 30+ clients simultaneously, dealing with both projects and daily support issues. I’ve worked with onsite and off-shore teams, sometimes a combination of both.</p>
-      <p>I’ve managed projects of all shapes and sizes. Durations ranging from a few days to several months, with budgets up to £1m</p>
-      <p>I've introduced Agile Development and SCRUM into organisations and helped development teams improve their workflow.</p>
+      <p>I have 6 years client and agency side experience managing digital projects in an ​Agile environment. These include E2E builds, microsites, campaigns, migrations and enhancements to existing websites. Budgets range from ​10k to £500k,​ with project durations lasting up to ​12 months.​</p>
+
+      <p>I have Experience with ​Scrum ​and Kanban​, and can use various PM tools i.e. JIRA, MS Project, Smartsheets. I've introduced Agile processes into organisations and helped development teams improve their workflow.</p>
+
+      <p>I also have experience managing internal and external stakeholders, managing remote teams and have worked with clients from various industries and sizes (Startup to FTSE 100).</p>
       <div class="panel">
         <h5>Highlights</h5>
         <ul>
-          <li>Key UX improvements across the Pearson Qualifications Website</li>
+          <li>Localisation of 20 sites in 18 markets for <strong>Unilever</strong></li>
+          <li>Technical delivery of 2 global campaigns for <strong>Unilever</strong></li>
+          <li>Key UX improvements on the Pearson Qualifications Website</li>
           <li>Multiple Projects for CRUK, 4Children and British Library</li>
-          <li>Website's for the London Bikeathon at Bloodwise</li>
-          <li>Event Management Functionality for Scripture Union</li>
+          <li>Website for the London Bikeathon at Bloodwise</li>
           <li>Responsive Website for the British Lung Foundation</li>
-          <li>Use PM tools like Trello, MS Project, Zendesk and Jira</li>
         </ul>
       </div>
     </article>
     <article>
-      <h4>Web Design</h4>
-      <p>Similarly, I also have 5 years of Web Design & Development experience. I can write HTML, CSS, Javascript, PHP and combine them with SEO best practices, to build responsive websites.</p>
+      <h4>Web</h4>
+      <p>Similarly, I have several years of experience with ​HTML, CSS, Javascript and PHP.​ I have managed and built sites in ​AEM, WordPress​, ​Drupal.​</p>
 
-      <p>I've built numerous custom websites, templates and functionality for WordPress (like this one), Drupal and Kirby CMS.</p>
+      <p>I can design fully responsive websites using a mobile-first approach and create information architectures, wireframes and browser prototypes.</p>
 
-      <p>I've worked with local businesses, startups, individuals and taken on remote projects of varying complexity. These include portfolios, e-commerce sites and microsites - See some examples in my <a href="/portfolio">Portfolio.</a></p>
+      <p>I've delivered key UX projects for Unilever and Pearson, working with design and development teams do create long lasting improvements.</p>
 
-      <p>I'm <em><a href="/contact">available to take on new projects</a></em> so <a href="/contact">please get in touch.</a></p>
+      <p>I've worked with local businesses, startups and individuals. These include portfolios, e-commerce sites and microsites - See some examples in my <a href="/portfolio">Portfolio.</a></p>
+
+      <!-- <p>I'm <em><a href="/contact">available to take on new projects</a></em> so <a href="/contact">please get in touch.</a></p> -->
       <div class="panel">
         <h5>Highlights</h5>
         <ul>
           <li>HTML, CSS, Javascript, PHP</li>
-          <li>Wordpress, Drupal, Kirby</li>
+          <li>Wordpress, Drupal, Adobe Experience Manager (AEM)</li>
           <li>Custom Responsive Websites</li>
           <li>WooCommerce, Drupal Commerce, Ubercart</li>
           <li>Github, Photoshop, Illustrator</li>
@@ -51,10 +54,23 @@
   <section class="layout">
     <h5>Experience</h5>
     <ul class="list-grid">
+
+      <li>
+        <h4>Government Digital Service</h4>
+        <p>Senior Delivery Manager</p>
+        <p>October 2018 - Present</p>
+      </li>
+
+      <li>
+        <h4>Williams Lea Tag</h4>
+        <p>Senior Digital Project Manager</p>
+        <p>January 2018 - August 2018</p>
+      </li>
+
       <li>
         <h4>CreditLadder</h4>
         <p>Digital Project Manager</p>
-        <p>July 2017 - Present</p>
+        <p>July 2017 - December 2017</p>
       </li>
 
       <li>
@@ -76,33 +92,15 @@
       </li>
 
       <li>
-        <h4>The Rocket Factory</h4>
-        <p>Digital Project Manager</p>
-        <p>June 2013 - December 2013</p>
-      </li>
-
-      <li>
         <h4>Vodafone Group</h4>
         <p>Project Co-ordinator</p>
         <p>June 2012 - June 2013</p>
       </li>
 
       <li>
-        <h4>Inglis Jane</h4>
-        <p>Project Co-ordinator</p>
-        <p>June 2012 - June 2013</p>
-      </li>
-
-      <li>
-        <h4>Freelance</h4>
-        <p>Web Designer/Developer</p>
-        <p>March 2011 - Present</p>
-      </li>
-
-      <li>
-        <h4><a href="http://ul.to/tfwdcxiq" target="_blank">Download CV</a></h4>
-        <p>PDF Format</p>
-        <p><em>Updated: January 2017</em></p>
+        <h4>&nbsp;</h4>
+        <p><a href="https://drive.google.com/file/d/13tdMdGvW_HmSVAMc4fGDtRqGnkMSaggb/view?usp=sharing" target="_blank">Download CV</a></p>
+        <p><em>Updated: August 2018</em></p>
       </li>
     </ul>
   </section>
@@ -121,7 +119,7 @@
       <li>
         <h4>BSc Business Information Systems (2:1)</h4>
         <p>University of Westminster</p>
-        <p>June 2011</p>
+        <p>June 2012</p>
       </li>
     </ul>
   </section>
@@ -131,13 +129,14 @@
 
 <div class="band extra last">
   <section class="layout">
-    <h5>Previous Clients</h5>
+    <h5>Previous Agency Clients</h5>
     <ul class="list-grid">
       <li>
-        <h4>4Children</h4>
+        <h4>Unilever</h4>
         <p>Project Management</p>
-        <p>Charity</p>
+        <p>FMCG</p>
       </li>
+
       <li>
         <h4>Cancer Research UK</h4>
         <p>Project Management</p>
@@ -159,16 +158,6 @@
         <p>Charity</p>
       </li>
       <li>
-        <h4>The Logic Group</h4>
-        <p>Project Management</p>
-        <p>Charity</p>
-      </li>
-      <li>
-        <h4>NPC</h4>
-        <p>Project Management</p>
-        <p>Charity</p>
-      </li>
-      <li>
         <h4>World Horse Welfare</h4>
         <p>Project Management</p>
         <p>Charity</p>
@@ -179,19 +168,9 @@
         <p>Charity</p>
       </li>
       <li>
-        <h4>Bank Workers Charity</h4>
-        <p>Project Management</p>
-        <p>Charity</p>
-      </li>
-      <li>
         <h4>British Library</h4>
         <p>Project Management</p>
         <p>Charity</p>
-      </li>
-      <li>
-        <h4>Bible Society</h4>
-        <p>Project Management</p>
-        <p>Non-profit</p>
       </li>
       <li>
         <h4>Animal Defenders International</h4>
@@ -209,94 +188,9 @@
         <p>Charity</p>
       </li>
       <li>
-        <h4>Methodist Church</h4>
-        <p>Project Management</p>
-        <p>Non-profit</p>
-      </li>
-      <li>
-        <h4>Scripture Union</h4>
-        <p>Project Management</p>
-        <p>Non-profit</p>
-      </li>
-      <li>
-        <h4>Toothrush Subscriptions</h4>
-        <p>Design</p>
-        <p>E-Commerce</p>
-      </li>
-      <li>
         <h4>Jam ICT</h4>
         <p>Design, Development</p>
         <p>Consultancy</p>
-      </li>
-      <li>
-        <h4>Flames World Buffet</h4>
-        <p>Development</p>
-        <p>Food</p>
-      </li>
-      <li>
-        <h4>Cake Street</h4>
-        <p>Development</p>
-        <p>Food</p>
-      </li>
-      <li>
-        <h4>Findabode</h4>
-        <p>Design, Development</p>
-        <p>Property</p>
-      </li>
-      <li>
-        <h4>Bengal Lancers</h4>
-        <p>Design</p>
-        <p>Food</p>
-      </li>
-      <li>
-        <h4>Crafts with Class</h4>
-        <p>Development</p>
-        <p>E-Commerce</p>
-      </li>
-      <li>
-        <h4>Stepney Community Trust</h4>
-        <p>Design, Development</p>
-        <p>Government</p>
-      </li>
-      <li>
-        <h4>Zen Judo</h4>
-        <p>Design, Development</p>
-        <p>Fitness</p>
-      </li>
-      <li>
-        <h4>Subsmart</h4>
-        <p>Product Management</p>
-        <p>E-Commerce</p>
-      </li>
-      <li>
-        <h4>Ransack</h4>
-        <p>Product Management</p>
-        <p>Social Network</p>
-      </li>
-      <li>
-        <h4>BigRedPod</h4>
-        <p>Design, Development</p>
-        <p>Podcast</p>
-      </li>
-      <li>
-        <h4>London Circumcision Clinic</h4>
-        <p>Design, Development</p>
-        <p>Health</p>
-      </li>
-      <li>
-        <h4>So Serene Fashion</h4>
-        <p>Development</p>
-        <p>E-Commerce</p>
-      </li>
-      <li>
-        <h4>Mubarak Weddings</h4>
-        <p>Design, Development</p>
-        <p>Events</p>
-      </li>
-      <li>
-        <h4>Rukon Images</h4>
-        <p>Design, Development</p>
-        <p>Photography</p>
       </li>
     </ul>
   </section>
