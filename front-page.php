@@ -103,7 +103,7 @@
   <div class="band projects">
     <section class="layout">
       <ul class="list-grid">
-        <?php $the_query = new WP_Query( 'showposts=1&post_type=project' ); ?>
+        <?php $the_query = new WP_Query( 'showposts=1&post_type=project&offset=2' ); ?>
         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
           <li class="move-right">
             <article>

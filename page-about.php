@@ -58,7 +58,7 @@
       <li>
         <h4>Government Digital Service</h4>
         <p>Senior Delivery Manager</p>
-        <p>October 2018 - Present</p>
+        <p>September 2018 - Present</p>
       </li>
 
       <li>
